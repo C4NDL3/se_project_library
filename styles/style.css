@@ -161,6 +161,10 @@
   text-decoration: none;
 }
 
+.events__more:hover {
+  color: #1f69c9;
+}
+
 .events__cover {
   flex-grow: 1;
   flex-shrink: 0;
@@ -436,6 +440,9 @@
   text-decoration: none;
 }
 
+.footer__column-link:hover {
+  color: #1f69c9;
+}
 .footer__social-icon {
   height: 16px;
   width: 16px;
