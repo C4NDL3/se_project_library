@@ -30,7 +30,7 @@
 
 .nav__links {
   list-style-type: none;
-  margin: 8px 0 0;
+  margin: 8px;
   display: flex;
   gap: 20px;
 }
@@ -395,7 +395,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 60px 80px;
 }
@@ -425,7 +425,10 @@
 }
 
 .footer__list-item {
-  margin: 0 0 16px;
+  margin: auto;
+}
+.footer__list-item:last-child {
+  padding: 16px;
 }
 
 .footer__column-heading {
@@ -446,6 +449,7 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
+  gap: auto;
 }
 
 .footer__copyright {
