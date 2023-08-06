@@ -449,7 +449,7 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  gap: auto;
+  gap: 16px;
 }
 
 .footer__copyright {
