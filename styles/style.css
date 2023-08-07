@@ -30,7 +30,7 @@
 
 .nav__links {
   list-style-type: none;
-  margin: 8px;
+  margin: 8px 0 0;
   display: flex;
   gap: 20px;
 }
@@ -425,10 +425,11 @@
 }
 
 .footer__list-item {
-  margin: auto;
+  gap: 16px;
 }
+
 .footer__list-item:last-child {
-  padding: 16px;
+  gap: 16px;
 }
 
 .footer__column-heading {
@@ -449,7 +450,7 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  gap: 16px;
+  margin-left: 16px;
 }
 
 .footer__copyright {
